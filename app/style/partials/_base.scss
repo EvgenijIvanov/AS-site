@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
-@import url('../fonts/font-awesome.min.css');
-@import url('../libs/bxslider/jquery.bxslider.min.css');
 $background-body: rgba(198,198,198, 0.1);
 $color_blue: rgba(48,112,168, 1);
 $color_light_green: rgba(28,183,154, 1);
@@ -145,7 +141,7 @@ nav ul li a:hover::after, nav ul li a:active::after{
   margin: 0 auto;
   display: block;
   min-height: 585px;
-  background-image: url("../img/fon1.png");
+  background-image: url("../../img/fon1.png");
   background-size: cover;
 }
 .wraper-banner{
@@ -267,7 +263,7 @@ nav ul li a:hover::after, nav ul li a:active::after{
   margin: 0 auto;
   display: block;
   min-height: 576px;
-  background-image: url("../img/fon2.png");
+  background-image: url("../../img/fon2.png");
   background-size: cover;
   .wrapper-team{
     z-index: 2;
@@ -474,19 +470,19 @@ nav ul li a:hover::after, nav ul li a:active::after{
       width: 100%;
       height: 150px;
       &:first-of-type{
-        background: url("../img/portfolio1.png");
+        background: url("../../img/portfolio1.png");
         background-size: cover;
         background-origin: border-box;
         background-position: 50% 53%;
       }
       &:nth-of-type(2){
-        background: url("../img/portfolio2.png");
+        background: url("../../img/portfolio2.png");
         background-size: cover;
         background-position: 50% 30%;
         background-origin: border-box;
       }
       &:last-of-type{
-        background: url("../img/portfolio3.png");
+        background: url("../../img/portfolio3.png");
         background-size: cover;
         background-position: 50% 53%;
         background-origin: border-box;
@@ -533,7 +529,7 @@ nav ul li a:hover::after, nav ul li a:active::after{
   box-sizing: border-box;
   margin: 0 auto;
   max-width: 1400px;
-  background: url("../img/client.png") repeat-y;
+  background: url("../../img/client.png") repeat-y;
   background-size: cover;
 }
 .content-clients{
