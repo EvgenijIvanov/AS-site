@@ -217,6 +217,7 @@ header{
   color: #FFFFFF;
 }
 .logo span:last-of-type{
+  letter-spacing: 2px;
   text-transform: none;
   color: $color_orange;
 }
@@ -469,12 +470,35 @@ nav ul li a:hover::after, nav ul li a:active::after, .selected::after{
         }
         .bxslider-foto{
           box-sizing: border-box;
-            img{
-              margin: 25px auto 0;
-              max-width: 200px;
-              max-height: 200px;
-              border-radius: 50%;
-            }
+          .bxslider-foto-wrapper{
+            background: url("../img/team.png") no-repeat #ffffff;
+            box-sizing: border-box;
+            margin: 25px auto 0;
+            width: 185px;
+            height: 185px;
+            border-radius: 50%;
+          }
+          .teamlead{
+            background-position: 16px 16px;
+          }
+          .creativeofficer{
+            background-position: 16px -142px;
+          }
+          .fullstack{
+            background-position: -157px -302px;
+          }
+          .jwdevelop{
+            background-position: -157px 16px;
+          }
+          .webdevelop{
+            background-position: -157px -143px;
+          }
+          .markupdevelop{
+            background-position: -333px -301px;
+          }
+          .frendevel{
+            background-position: -333px -143px;
+          }
         }
       }
     }

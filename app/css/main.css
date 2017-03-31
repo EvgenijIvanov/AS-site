@@ -216,6 +216,7 @@ header {
   color: #FFFFFF; }
 
 .logo span:last-of-type {
+  letter-spacing: 2px;
   text-transform: none;
   color: #ee8129; }
 
@@ -447,12 +448,29 @@ nav ul li a:hover::after, nav ul li a:active::after, .selected::after {
       .team .wrapper-team ul li .bxslider-foto {
         -webkit-box-sizing: border-box;
                 box-sizing: border-box; }
-        .team .wrapper-team ul li .bxslider-foto img {
+        .team .wrapper-team ul li .bxslider-foto .bxslider-foto-wrapper {
+          background: url("../img/team.png") no-repeat #ffffff;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
           margin: 25px auto 0;
-          max-width: 200px;
-          max-height: 200px;
+          width: 185px;
+          height: 185px;
           -webkit-border-radius: 50%;
                   border-radius: 50%; }
+        .team .wrapper-team ul li .bxslider-foto .teamlead {
+          background-position: 16px 16px; }
+        .team .wrapper-team ul li .bxslider-foto .creativeofficer {
+          background-position: 16px -142px; }
+        .team .wrapper-team ul li .bxslider-foto .fullstack {
+          background-position: -157px -302px; }
+        .team .wrapper-team ul li .bxslider-foto .jwdevelop {
+          background-position: -157px 16px; }
+        .team .wrapper-team ul li .bxslider-foto .webdevelop {
+          background-position: -157px -143px; }
+        .team .wrapper-team ul li .bxslider-foto .markupdevelop {
+          background-position: -333px -301px; }
+        .team .wrapper-team ul li .bxslider-foto .frendevel {
+          background-position: -333px -143px; }
   .team .team-butoon {
     margin: 35px 0;
     position: relative;
