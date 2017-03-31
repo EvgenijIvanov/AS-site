@@ -3,6 +3,11 @@
     text-align: center !important;
   }
 }
+@media screen and (max-width: 1025px) {
+  header{
+    height: auto;
+  }
+}
 @media screen and (max-width: 999px) {
   .services-content{
     text-align: center !important;

@@ -122,6 +122,7 @@ header {
   overflow: hidden;
   display: block;
   margin: 0 auto;
+  height: 100vh;
   background-image: url("../img/fon1.png");
   background-size: cover; }
 
@@ -701,17 +702,17 @@ nav ul li a:hover::after, nav ul li a:active::after, .selected::after {
           height: 100%;
           display: block; }
       .portfolio .container-item-portfolio .item-portfolio:nth-of-type(1) {
-        background-image: url("../img/portfolio4.png"); }
+        background-image: url("../img/portfolio-th-1.png"); }
       .portfolio .container-item-portfolio .item-portfolio:nth-of-type(2) {
-        background-image: url("../img/portfolio5.png"); }
+        background-image: url("../img/portfolio-th-2.png"); }
       .portfolio .container-item-portfolio .item-portfolio:nth-of-type(3) {
-        background-image: url("../img/portfolio-6.png"); }
+        background-image: url("../img/portfolio-th-3.png"); }
       .portfolio .container-item-portfolio .item-portfolio:nth-of-type(4) {
         background-image: url("../img/portfolio1.png"); }
       .portfolio .container-item-portfolio .item-portfolio:nth-of-type(5) {
-        background-image: url("../img/portfolio2.png"); }
+        background-image: url("../img/portfolio-th-4.png"); }
       .portfolio .container-item-portfolio .item-portfolio:last-of-type {
-        background-image: url("../img/portfolio3.png"); }
+        background-image: url("../img/portfolio-th-5.png"); }
       .portfolio .container-item-portfolio .item-portfolio .fon-opasity {
         background-color: rgba(65, 82, 92, 0.7);
         color: #ffffff;
@@ -1074,6 +1075,10 @@ nav ul li a:hover::after, nav ul li a:active::after, .selected::after {
 @media screen and (max-width: 1330px) {
   .wrapper-cards {
     text-align: center !important; } }
+
+@media screen and (max-width: 1025px) {
+  header {
+    height: auto; } }
 
 @media screen and (max-width: 999px) {
   .services-content {
