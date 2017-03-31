@@ -1,0 +1,37 @@
+.bx-wrapper{
+  margin: 40px auto 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  .bx-controls-direction {
+    a{
+      text-indent: 0;
+      i{
+        transition: transform 0.2s ease-out 0s, text-shadow 0.2s linear 0s;
+        color: rgba(#ffffff, 0.1);
+        font-size: 45px;
+        font-weight: 100;
+        transform: scale(0.4,4);
+      }
+    }
+    a:hover > i{
+      text-shadow: 1px 1px 1px rgba(#ffffff, 0.4);
+    }
+    a:active > i{
+      transform: scale(0.3,4.5);
+    }
+  }
+  .bx-pager{
+    .bx-pager-item{
+      a{
+        background: #FFFFFF;
+      }
+      a.active{
+        background: $color_dark_gray;
+      }
+    }
+  }
+  .bx-next{
+    background: none;
+  }
+}

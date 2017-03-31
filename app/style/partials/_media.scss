@@ -1,0 +1,154 @@
+@media screen and (max-width: 1200px) {
+  .wrapper-cards{
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 999px) {
+  .services-content{
+    text-align: center !important;
+    .content-item{
+      margin: 0 5%;
+    }
+  }
+  .wrapper-cards{
+    text-align: center !important;
+  }
+}
+@media screen and (max-width: 890px) {
+  .contact{
+    margin: 0 auto !important;
+    float: none !important;
+      ul{
+        max-width: 500px !important;
+        margin-left: calc(50% - 250px) !important;
+      }
+    .social{
+      margin: 0 auto;
+      max-width: 500px !important;
+    }
+  }
+  .user{
+    margin: 0 auto !important;
+    float: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-button{
+    margin-top: 20px !important;
+  }
+  .hide-menu{
+    position: fixed;
+    display: block;
+  }
+  nav{
+    position: static;
+    .header-slider-menu{
+      display: none;
+      background-color: rgba($color_dark_gray, 0.95);
+      position: fixed;
+      z-index: 5;
+      top:0;
+      right: 0;
+      height: 100%;
+      width: 125px;
+      li{
+        margin-left: 15px;
+        text-align: left;
+        display:block;
+        &:first-of-type{
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .menu-spy, .ms-hide, .ms-show{
+    transform: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wraper-banner{
+    margin: 45px auto 25px !important;
+  }
+  .wrapper-services{
+    margin: 33px auto;
+      .content-item{
+        padding-top: 40px !important;
+      }
+  }
+  .wrapper-team{
+    margin: 25px auto 25px !important;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  .contact{
+    ul{
+      margin-left: 0 !important;
+    }
+  }
+  .wrapper-team ul li{
+    text-align: justify !important;
+    padding: 0 5px !important;
+    p{
+      line-height: 1.2 !important;
+    }
+  }
+  .bx-controls-direction{
+    display: none;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+  h3{
+    font-size: 18px !important;
+  }
+  .wraper-banner{
+    h2{
+      padding: 0 20px !important;
+      & > span{
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media only screen and (max-width : 360px) {
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+  .wrapper-services, .portfolio, .wrapper-cards{
+    padding: 0;
+  }
+  .content-item{
+    margin: 0 5% !important;
+  }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+    .header-slider-menu{
+      display: block !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
